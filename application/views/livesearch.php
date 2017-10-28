@@ -150,7 +150,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <div class="form-group">
                             <div class="" style="width: 80%; margin: 0 auto; margin-bottom: 40px;margin-top: 20px;">
-                                <form action="<?php echo base_url() . 'tiktok/search' ?>" method="post">
+                                <form action="#" method="post">
                                     <input type="text" id="search_data" class="form-control search-input" name="search-term" placeholder="What are you looking for?" onkeyup="liveSearch()" autocomplete="off">
                                     <div id="suggestions">
                                         <div id="autoSuggestionsList">
